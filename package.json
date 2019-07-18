@@ -1,12 +1,11 @@
 {
-  "name": "live-stocks-app",
-  "homepage": "https://codingHobbit.github.io/live-stocks-app",
+  "name": "search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.3.1",
     "cross-fetch": "^3.0.2",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
@@ -30,11 +29,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

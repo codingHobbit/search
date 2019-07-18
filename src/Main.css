@@ -1,81 +1,56 @@
-.navbar {
-  min-height: 70px;
-  background-color: #222222;
-  border-radius: 0px
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.navbar-brand {
-  padding: 20px;
+.content {
+  height: 100%;
 }
 
-.navbar-brand > img {
-  display: inline;
+.search {
+  margin: 4em 0 0 0;
+  width: 17%;
 }
 
-.nav-text {
-  display: inline;
-  padding: 20px;
-  color: white;
-  font-weight: 600;
-  font-family: "Segoe UI";
+.dropdown {
+  width: 17%;
 }
 
-.toggle-buttons{
-  width: 55%;
-  margin: 0px auto;
-  text-align: right;
+.rectangle {
+  border-radius: 0;
+}
+
+.cardParagraph {
+  margin-bottom: 0;
+  pointer-events: none;
+  pointerevents: none;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.noCard {
+  font-weight: bold;
+  color: grey;
+  padding: 2.5rem;
 }
 
 hr {
-  width: 55%;
-  align-self: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
-.table {
-  position: relative;
-  margin: 0px auto;
-  width: 55%;
-  text-align: center
+ul {
+  border-bottom: 1px solid #ccc;
+  max-height: 350px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-.remove-fav{
-  border-color: red;
-  color: red;
-}
-
-.add-fav{
-  border-color: rgb(91, 192, 222);
-  color: rgb(91, 192, 222);
-}
-
-.add-fav.focus, .add-fav:focus, .add-fav.hover, .add-fav:hover {
-  outline: none;
-  background-color: white;
-  border-color: rgb(91, 192, 222);
-  color: rgb(91, 192, 222);
-}
-
-.remove-fav.focus, .remove-fav:focus, .remove-fav.hover, .remove-fav:hover {
-  outline: none;
-  background-color: white;
-  border-color: red;
-  color: red;
-}
-
-.current-value {
-  font-weight: 600
-}
-
-.btn-default {
-  width: 80%;
-}
-
-.btn-info {
-  margin: 5px
-}
-
-@media only screen and (max-device-width: 485px) {
-  .navbar{
-    width: 507px;
-  }
+.form-control:foucs {
+  box-shadow: none;
 }
