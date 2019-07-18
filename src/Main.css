@@ -1,0 +1,81 @@
+.navbar {
+  min-height: 70px;
+  background-color: #222222;
+  border-radius: 0px
+}
+
+.navbar-brand {
+  padding: 20px;
+}
+
+.navbar-brand > img {
+  display: inline;
+}
+
+.nav-text {
+  display: inline;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  font-family: "Segoe UI";
+}
+
+.toggle-buttons{
+  width: 55%;
+  margin: 0px auto;
+  text-align: right;
+}
+
+hr {
+  width: 55%;
+  align-self: center;
+}
+
+.table {
+  position: relative;
+  margin: 0px auto;
+  width: 55%;
+  text-align: center
+}
+
+.remove-fav{
+  border-color: red;
+  color: red;
+}
+
+.add-fav{
+  border-color: rgb(91, 192, 222);
+  color: rgb(91, 192, 222);
+}
+
+.add-fav.focus, .add-fav:focus, .add-fav.hover, .add-fav:hover {
+  outline: none;
+  background-color: white;
+  border-color: rgb(91, 192, 222);
+  color: rgb(91, 192, 222);
+}
+
+.remove-fav.focus, .remove-fav:focus, .remove-fav.hover, .remove-fav:hover {
+  outline: none;
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+
+.current-value {
+  font-weight: 600
+}
+
+.btn-default {
+  width: 80%;
+}
+
+.btn-info {
+  margin: 5px
+}
+
+@media only screen and (max-device-width: 485px) {
+  .navbar{
+    width: 507px;
+  }
+}
